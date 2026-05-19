@@ -19,7 +19,7 @@ const Footer = () => {
             <a href="https://linkedin.com" target="_blank" rel="noreferrer" className="footer-social-link">
               <FaLinkedin size={20} />
             </a>
-            <a href="mailto:ajay@example.com" className="footer-social-link">
+            <a href="mailto:ajaymahadeva128@gmail.com" className="footer-social-link">
               <Mail size={20} />
             </a>
           </div>

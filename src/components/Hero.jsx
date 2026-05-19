@@ -52,7 +52,7 @@ const Hero = () => {
           <motion.a variants={itemVariants} href="https://linkedin.com" target="_blank" rel="noreferrer" className="social-icon">
              <FaLinkedin size={22} />
           </motion.a>
-          <motion.a variants={itemVariants} href="mailto:ajay@example.com" className="social-icon">
+          <motion.a variants={itemVariants} href="mailto:ajaymahadeva128@gmail.com" className="social-icon">
              <Mail size={22} />
           </motion.a>
           <motion.div variants={lineVariants} className="vertical-line bottom-line"></motion.div>

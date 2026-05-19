@@ -24,11 +24,11 @@ const Contact = () => {
           <div className="contact-details">
             <div className="contact-detail-item">
               <Mail className="text-accent" size={24} />
-              <span>ajay@example.com</span>
+              <span>ajaymahadeva128@gmail.com</span>
             </div>
             <div className="contact-detail-item">
               <Phone className="text-accent" size={24} />
-              <span>+91 123 456 7890</span>
+              <span>+91 9652441735</span>
             </div>
             <div className="contact-detail-item">
               <MapPin className="text-accent" size={24} />
