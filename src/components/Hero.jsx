@@ -2,6 +2,7 @@ import { motion } from 'framer-motion';
 import { Mail, ArrowDown } from 'lucide-react';
 import { FaGithub, FaLinkedin } from 'react-icons/fa';
 import './Hero.css';
+import profileImg from '../assets/ajay-profile.jpg';
 
 const Hero = () => {
   const containerVariants = {
@@ -93,10 +94,12 @@ const Hero = () => {
           animate={{ opacity: 1, scale: 1 }}
           transition={{ duration: 1.2, delay: 0.5, ease: [0.16, 1, 0.3, 1] }}
         >
-          {/* Placeholder for developer portrait, using an abstract futuristic gradient/pattern for now */}
-          <div className="hero-image-placeholder">
-            <div className="ambient-glow"></div>
-          </div>
+          <img 
+            src={profileImg} 
+            alt="Ajay Mahadeva" 
+            className="hero-profile-img"
+          />
+          <div className="ambient-glow"></div>
         </motion.div>
       </div>
 
